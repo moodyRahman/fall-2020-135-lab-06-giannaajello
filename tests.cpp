@@ -1,4 +1,4 @@
-#define DOCTEST_CONFIG_eIMPLEMENT_WITH_MAIN
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "caesar.h"
 #include "funcs.h"
