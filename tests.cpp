@@ -44,3 +44,9 @@ TEST_CASE("decrypt vigenere")
    CHECK(decryptVigenere("XJWAMCA & HSEJ","iconic") == "PHINEAS & FERB");
    CHECK(decryptVigenere("DITCR slik lo yx!!","weird") == "HELLO what is up!!");
 }
+
+TEST_CASE("decode"){
+    CHECK(automatic_decode("hello")=="hello");
+    CHECK(automatic_decode("Jvtwbaly zjplujl")=="Computer science");
+    CHECK(automatic_decode("Mck dws mrz")=="How are you");
+}
