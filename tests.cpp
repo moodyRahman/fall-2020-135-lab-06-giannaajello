@@ -4,6 +4,7 @@
 #include "funcs.h"
 #include "vigenere.h"
 #include "decryption.h"
+#include "decode.h"
 
 // add your tests her
 TEST_CASE("shift char")
@@ -46,7 +47,7 @@ TEST_CASE("decrypt vigenere")
 }
 
 TEST_CASE("decode"){
-    CHECK(automatic_decode("hello")=="hello");
-    CHECK(automatic_decode("Jvtwbaly zjplujl")=="Computer science");
-    CHECK(automatic_decode("Mck dws mrz")=="How are you");
+    CHECK(decode("hello")=="hello");
+    CHECK(decode("Jvtwbaly zjplujl")=="Computer science");
+    CHECK(decode("Mck dws mrz")=="How are you");
 }
