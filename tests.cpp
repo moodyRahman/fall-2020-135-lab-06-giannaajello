@@ -13,6 +13,8 @@ TEST_CASE("shift char")
   CHECK(shiftChar('C',0) == 'C');
   CHECK(shiftChar('B',-1) == 'A');
   CHECK(shiftChar('d', 3) == 'g');
+  CHECK(shiftChar('z', 1) == 'a');
+  CHECK(shiftChar('z', 2) == 'b');
 }
 TEST_CASE("encrypt caesar")
 {
