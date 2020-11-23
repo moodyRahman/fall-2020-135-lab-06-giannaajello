@@ -15,7 +15,6 @@ int main()
   std::cout << encryptVigenere("Hello, world!", "sushi") << std::endl;
   std::cout << decryptCaesar("IFJIFQZX!", 5) << std::endl;
   std::cout << decryptVigenere("Zydsw, oijsl!", "sushi") << std::endl;
-  std::cout << decode("Zydsw, oijsl!") << std:: endl;
   
   return 0;
 }

@@ -48,8 +48,3 @@ TEST_CASE("decrypt vigenere")
    CHECK(decryptVigenere("DITCR slik lo yx!!","weird") == "HELLO what is up!!");
 }
 
-TEST_CASE("decode"){
-    CHECK(decode("hello")=="hello");
-    CHECK(decode("Jvtwbaly zjplujl")=="Computer science");
-    CHECK(decode("Mck dws mrz")=="How are you");
-}
